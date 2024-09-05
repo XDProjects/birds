@@ -23,7 +23,7 @@ function downloadFile() {
     setTimeout(function() {downloadFile()}, 500);
 }
 
-document.getElementById("start").onclick = function() {
+function start() {
     document.getElementById("pipe").play();
     document.getElementById("start").style.display = "none";
     document.getElementById("image").style.display = "";
